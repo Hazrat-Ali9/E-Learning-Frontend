@@ -19,3 +19,4 @@ export default {
   ],
 }
 
+// Tailwind Config

@@ -3,7 +3,7 @@ import { createContext } from 'react'
 import { auth } from '../../Firebase/firebase.init'
 import { createUserWithEmailAndPassword, onAuthStateChanged, updateProfile, signInWithPopup, GoogleAuthProvider, signInWithEmailAndPassword, signOut } from 'firebase/auth'
 import Swal from 'sweetalert2'
-
+// auth context
 export const authContext = createContext(null)
 
 const AuthContext = ({ children }) => {

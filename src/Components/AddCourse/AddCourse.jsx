@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Swal from 'sweetalert2'
 import { IoMdAddCircle } from "react-icons/io";
-
+// add course
 
 const AddCourse = () => {
 

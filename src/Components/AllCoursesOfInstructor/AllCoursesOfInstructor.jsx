@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useLoaderData } from 'react-router-dom'
 import CourseItemList from '../CourseItemList/CourseItemList'
-
+// all courses of instructure
 const AllCoursesOfInstructor = () => {
 
     const loadedCoursesOfInstructor = useLoaderData()

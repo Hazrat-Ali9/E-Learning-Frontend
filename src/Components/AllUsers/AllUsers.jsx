@@ -1,7 +1,7 @@
 import React from 'react'
 import { useLoaderData } from 'react-router-dom'
 import UserItemList from '../UserItemList/UserItemList'
-
+// all users
 const AllUsers = () => {
 
     const loadedUsers = useLoaderData()

@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import { shopContext } from '../../Contexts/ShopContext/ShopContext'
 import { courseContext } from '../../Contexts/CourseContext/CourseContext'
 import { Link } from 'react-router-dom'
-
+// Cart Calculations
 const CartCalculation = () => {
 
     const {cartProducts, getTotalAmount} = useContext(courseContext)
